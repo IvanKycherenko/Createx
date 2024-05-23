@@ -1,0 +1,118 @@
+.clients {
+  background: #F4F5F6;
+  padding: 0 20px 121px 20px;
+  .clients__container {
+    position: relative;
+    .clients__img{
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-radius: 4px;
+    }
+    .clients__title {
+      display: flex;
+      align-items: flex-start;
+      h1 {}
+    }
+      .clients__slider {
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        .clients__info {
+          display: flex;
+          flex-direction: column;
+          gap: 24px;
+          img {
+            max-width: 72px;
+            max-height: 72px;
+          }
+          p {
+            color: #424551;
+            line-height: 160%;
+          }
+        }
+        .clients__items {
+          display: flex;
+          justify-content: space-between;
+          align-items: end;
+          .clients__bio {
+            p.clients__bold.bold {
+              color: #1E212C;
+              font-weight: 900;
+            }
+            p.clients__thin.thin {
+              color: #787A80;
+              font-size: 14px;
+              line-height: 150%;
+            }
+          }
+          .clients__arrows {
+            display: flex;
+            .clients__circle {
+              img {}
+            }
+            .clients__circle {
+              img {}
+            }
+          }
+        }
+      }
+    }
+  }
+
+@media screen and (max-width: 1150px) {
+  .clients {
+    .clients__container {
+      .clients__img{
+        max-width: 350px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1023px) {
+  .clients {
+    .clients__container {
+      position: sticky;
+      .clients__img{
+        max-width: 300px;
+        top: 35px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 950px) {
+  .clients {
+    .clients__container {
+      position: static;
+        .clients__img {
+          max-width: 500px;
+          position: static;
+          margin: 0 auto;
+        }
+      .clients__title {
+        display: flex;
+        align-items: center;
+        h1 {}
+      }
+      .clients__slider {
+        display: flex;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+@media screen and (max-width: 540px){
+  .clients {
+    padding: 0 20px 60px 20px;
+    .clients__container {
+      position: static;
+
+      .clients__img {
+        max-width: 500px;
+        position: static;
+        margin: 0 ;
+      }
+    }
+  }
+}

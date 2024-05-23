@@ -1,0 +1,206 @@
+.footer {
+  background: #1E212C;
+  min-height: 566px;
+  padding: 80px 20px;
+  display: flex;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.footer__container .footer__container_left .footer__company_info .footer__imgs {
+  display: flex;
+  gap: 60px;
+  margin-bottom: 24px;
+}
+.footer__container .footer__container_left .footer__company_info .footer__imgs .footer__networks {
+  display: flex;
+  gap: 16px;
+}
+.footer__container .footer__container_left .footer__company_info .footer__text {
+  max-width: 490px;
+  color: #fff;
+  opacity: 0.6;
+  font-size: 14px;
+  margin-bottom: 73px;
+}
+.footer__container .footer__container_left .footer__questions {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__container .footer__container_left .footer__questions .footer__question_left .footer__question_title {
+  color: #fff;
+}
+.footer__container .footer__container_left .footer__questions .footer__question_left .footer__question_contacts {
+  display: flex;
+  gap: 4px;
+}
+.footer__container .footer__container_left .footer__questions .footer__question_left .footer__question_contacts p.footer__question-bold {
+  color: #fff;
+  line-height: 160%;
+}
+.footer__container .footer__container_left .footer__questions .footer__question_left .footer__question_contacts p.footer__question_thin {
+  color: #fff;
+  opacity: 0.6;
+  line-height: 160%;
+}
+.footer__container .footer__question_right {
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  margin-left: -137px;
+}
+.footer__container .footer__question_right .footer__question_title {
+  color: #fff;
+}
+.footer__container .footer__question_right .footer__question_info-about-us {
+  color: #fff;
+  opacity: 0.6;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_text-area {
+  max-width: 495px;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area_title {
+  color: #fff;
+  margin-bottom: 24px;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area {
+  margin-bottom: 16px;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area input {
+  padding: 11px 125px 12px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: none;
+  background: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px 0 0 4px;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area button {
+  border-radius: 0 4px 4px 0;
+  font-weight: 900;
+  background: #FF5A30;
+  border: none;
+  color: #fff;
+  padding: 12px 20px 13px;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area button:hover {
+  background: #FC3300;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__under_text {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 12px;
+  margin-bottom: 49px;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_experience .footer__experience_title {
+  color: #fff;
+}
+.footer__container .footer__container_right .footer__company_works .footer__container_experience .footer__experience_list {
+  color: #fff;
+  opacity: 0.6;
+}
+
+.footer__container_bottom {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+.footer__container_bottom .footer__bottom_text {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.footer__container_bottom .footer__bottom_btn {
+  display: flex;
+  align-items: end;
+  gap: 16px;
+}
+.footer__container_bottom .footer__bottom_btn button {
+  border-radius: 4px;
+  font-weight: 900;
+  background: #FF5A30;
+  border: none;
+  color: #fff;
+  padding: 8px;
+  transition: all 0.3s ease 0s;
+  text-transform: uppercase;
+}
+.footer__container_bottom .footer__bottom_btn button:hover {
+  background: #FC3300;
+}
+@media screen and (max-width: 1023px) {
+  .footer__container {
+    flex-direction: column;
+    padding: 0 0 0 100px;
+  }
+  .footer__container .footer__question_right {
+    margin: 60px 0 60px 0;
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    padding: 40px 20px;
+  }
+  .footer__container {
+    padding: 0;
+  }
+  .footer__container .footer__container_left .footer__company_info .footer__imgs {
+    margin-bottom: 14px;
+  }
+  .footer__container .footer__container_left .footer__company_info .footer__text {
+    margin-bottom: 30px;
+  }
+  .footer__container .footer__question_right {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+  }
+  .footer__container_bottom .footer__bottom_btn {
+    display: none;
+  }
+  .footer__container_bottom .footer__bottom_text {
+    align-items: center;
+  }
+}
+@media screen and (max-width: 530px) {
+  .footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area input {
+    padding: 7px 40px 7px 16px;
+  }
+  .footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area button {
+    padding: 8px 10px 8px;
+  }
+  .footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__under_text {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 424px) {
+  .footer .footer__container .footer__container_left .footer__company_info .footer__imgs {
+    display: flex;
+    gap: 15px;
+  }
+  .footer .footer__container .footer__container_left .footer__company_info .footer__imgs .footer__networks {
+    display: flex;
+    gap: 6px;
+  }
+  .footer .footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area input {
+    padding: 7px 0 7px 8px;
+    width: 170px;
+  }
+  .footer .footer__container .footer__container_right .footer__company_works .footer__container_text-area .footer__text-area button {
+    padding: 8px 8px 8px;
+  }
+  .footer__container_bottom {
+    justify-content: center;
+  }
+  .footer__container_bottom .footer__bottom_text {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

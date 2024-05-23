@@ -1,0 +1,30 @@
+.partners {
+  background: #F4F5F6;
+  padding: 80px 20px 170px 20px;
+}
+
+.partners__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .partners {
+    padding: 40px 20px 60px 20px;
+  }
+  .partners__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .partners__items img {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 424px) {
+  .partners__title h1 {
+    font-size: 22px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */
